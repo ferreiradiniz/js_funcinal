@@ -1,0 +1,11 @@
+{
+  "name": "js_funcional",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ferreiradiniz/js_funcional.git",
+  "author": "Bruno Diniz <ferreiradiniz@msn.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
