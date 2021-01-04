@@ -1,3 +1,8 @@
-const a = 1
+const fs = require('fs')
 
-console.log(a)
+const lerArquivos = caminho => {
+  const arquivos = fs.readdirSync(caminho)
+  return arquivos
+}
+
+module.exports = { lerArquivos }

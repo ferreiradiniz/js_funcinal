@@ -5,6 +5,11 @@
   "repository": "git@github.com:ferreiradiniz/js_funcional.git",
   "author": "Bruno Diniz <ferreiradiniz@msn.com>",
   "license": "MIT",
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
   "lint-staged": {
     "*.js": "standard --fix"
   },
